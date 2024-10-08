@@ -1,0 +1,71 @@
+
+
+.sidebar {
+    background-color: transparent; /* Matches the webpage background */
+    display: block;
+    width: 250px; /* Adjust the width of the sidebar */
+}
+
+.sidebar ul {
+    padding-left: 0;
+    margin-bottom: 0; /* Remove unnecessary space between items */
+}
+
+.sidebar li {
+    margin-bottom: 0; /* No extra space between tabs */
+}
+
+/* Rounded tabs for main and subtabs */
+.rounded-tab {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 8px; /* Subtle rounding */
+    background-color: transparent; /* Transparent background to match the page */
+    color: #495057; /* Subtle gray text */
+    text-decoration: none;
+    font-weight: 400; /* Match the font weight from your navbar */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover and active states */
+.rounded-tab:hover, .rounded-tab:focus {
+    background-color: #f0f0f0; /* Slight hover effect */
+    color: #212529; /* Darker color on hover */
+}
+
+/* Subtab */
+.subtab {
+    padding-left: 20px; /* Indent subtabs */
+    font-size: 15px; /* Slightly smaller font for subtabs */
+}
+
+/* Ensure subtabs match parent style */
+.subtab:hover, .subtab:focus {
+    background-color: #f0f0f0;
+    color: #212529;
+}
+
+/* Icon styling */
+.fas {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 14px; /* Adjust the icon size */
+}
+
+/* Styling to match your navbar font */
+.sidebar a {
+    font-size: 16px; /* Match font size from the navbar */
+    text-decoration: none;
+}
+
+.sidebar ul ul a {
+    background-color: transparent; /* Match parent background */
+    color: #495057; /* Match parent text color */
+}
+.sidebar-header {
+    padding: 10px 10px; /* Padding for the header */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #495057; /* Dark gray text */
+    font-size: 20px; /* Larger font size */
+    font-weight: 400; /* Bold font weight */
+    border-radius: 8px; /* Rounded corners */
+}

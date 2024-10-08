@@ -1,0 +1,45 @@
+.status-box {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+
+
+.status-pending {
+    background-color: #ffc107; /* Yellow */
+}
+
+.status-paid {
+    background-color: #28a745; /* Green */
+}
+
+.status-overdue {
+    background-color: #dc3545; /* Red */
+}
+
+.status-cancelled {
+    background-color: #6c757d; /* Grey */
+}
+
+.status-waiting {
+    background-color: #17a2b8; /* Blue */
+}
+
+.status-pending {
+    background-color: #ffc107; /* Yellow */
+}
+
+.status-scheduled {
+    background-color: #17a2b8; /* Blue */
+}
+
+.status-completed {
+    background-color: #28a745; /* Green */
+}
+
+.status-cancelled {
+    background-color: #dc3545; /* Red */
+}

@@ -1,0 +1,41 @@
+/* Table Styling */
+table.table {
+    border-collapse: collapse;
+    width: 98%;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+table.table thead th {
+    background-color: #f0f0f0;
+    font-weight: 500;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+table.table tbody td {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+.table-container {
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: auto;
+    margin: 15px;
+}
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* Dropdown styling */
+.records-dropdown {
+    display: inline-block;
+    margin: 15px;
+}
